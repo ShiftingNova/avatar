@@ -1,5 +1,6 @@
 #from graphics import graphics
 def hat(type):
+    print()
     print("       ~-~ ")
     print("     /-~-~-\ ")
     if type =="left":
@@ -24,7 +25,7 @@ def head(length, eyes):
         print("    |  ~~~  |")
         print("     \_____/")
 def arms (character):
-    print("  0"+str(character)*4 +"|---|" + str(character)*4 + "0")
+    print(" 0"+str(character)*4 +"|---|" + str(character)*4 + "0")
 def torso (length):
     i = 0
     while i < length:
@@ -80,7 +81,7 @@ elif avatar == "custom":
     arm_character = str(input("Arm style ?\n"))
     torso_height = int(input("Torso length ?\n"))
     legs_height = int(input("Leg length (1-4) ?\n"))
-    shoe = str(input("Shoe look ?\n\n"))
+    shoe = str(input("Shoe look ?\n"))
     hat(hat_style)
     head(hair, eye)
     arms(arm_character)
