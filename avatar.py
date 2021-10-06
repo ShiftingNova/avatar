@@ -24,7 +24,7 @@ def head(length, eyes):
         print("    |  ~~~  |")
         print("     \_____/")
 def arms (character):
-    print("  0"+str(character)*3 +"|---|" + str(character)*3 + "0")
+    print("  0"+str(character)*4 +"|---|" + str(character)*4 + "0")
 def torso (length):
     i = 0
     while i < length:
