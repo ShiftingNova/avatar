@@ -1,4 +1,9 @@
-#from graphics import graphics
+### 
+### Author: Jordan Walker
+### Course: CSc 110
+### Description: This prints a person with 
+###              customization options
+###
 def hat(type):
     print()
     print("       ~-~ ")
