@@ -80,7 +80,7 @@ elif avatar == "custom":
     arm_character = str(input("Arm style ?\n"))
     torso_height = int(input("Torso length ?\n"))
     legs_height = int(input("Leg length (1-4) ?\n"))
-    shoe = str(input("Shoe look ?\n"))
+    shoe = str(input("Shoe look ?\n\n"))
     hat(hat_style)
     head(hair, eye)
     arms(arm_character)
