@@ -1,5 +1,4 @@
 #from graphics import graphics
-from hskgakj import graphics
 def hat(type):
     print("       ~-~ ")
     print("     /-~-~-\ ")
